@@ -5,7 +5,7 @@ import {BrowserRouter, Route, Link} from 'react-router-dom'
 class About extends Component {
   render (){
     return (
-      <BrowserRouter>
+      <>
       <div >
         <h1 >Data Peserta Sanbercode Bootcamp Reactjs</h1>
         <ol>
@@ -21,7 +21,7 @@ class About extends Component {
       <a href="index.html">
         <button>kembali ke index</button>
       </a>
-      </BrowserRouter>
+      </>
     )
   }
 }
